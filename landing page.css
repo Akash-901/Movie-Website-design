@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  overflow-x: hidden;
+  background-color: black !important;
+  animation: load 1s;
+}
+nav {
+  font-size: 1.2em;
+  background-color: black;
+}
+.nav-link {
+  transition: 0.5s;
+}
+.nav-link:hover{
+  color: red !important;
+}
+.navbar-brand {
+  color: red !important;
+  font-size: 1.4em;
+  transition: 0.5s;
+}
+.navbar-brand:hover {
+  letter-spacing: 0.1em;
+}
+span {
+  color: red;
+}
+.img {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  margin-top: 8vh;
+  background: url(avengers.png);
+  background-size: cover;
+}
+.section {
+  margin-left: 20px;
+  line-height: 10px;
+  height: 90vh;
+  margin-top: 30px;
+}
+.heading {
+  font-weight: 500;
+  margin-top: 50px;
+}
+.content {
+  margin-left: 10px;
+  justify-content: space-evenly;
+  font-size: 1.4em;
+  line-height: 30px;
+}
+button {
+  display: inline-block;
+  position: relative;
+  color: red;
+  border: solid 1px red;
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: black !important;
+  transition: 0.5s;
+}
+button:hover{
+  color: white;
+  background: red !important;
+}
+
+button:hover .far{
+  color: white !important;
+}
+.center {
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  height: 50vh;
+}
+.footer h2 {
+  margin-bottom: 50px;
+  text-align: center;
+  color: gray;
+}
+.logo1{
+  width: 200px;
+  height: 200px;
+  background: url(pvr.png);
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logo2{
+  width: 200px;
+  height: 200px;
+  background: url(fun.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logo3{
+  width: 200px;
+  height: 200px;
+  background: url(inox.jfif);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logo4{
+  width: 200px;
+  height: 200px;
+  background: url(pnghut_logo-brand-pvr-singapore-lucknow-café-coffee-day-text-mall-kiosk-oyo-2031-hotel-sunshine-innothers.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@keyframes load {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+
+.car{
+  height: 800px;
+  width: 100%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 70px;
+  width: 70px;
+  outline:ivory !important;
+  background-size: 50%, 50%;
+  border-radius: 50%;
+  border: 1px solid ivory !important;
+}
+
+.carousel-control-prev-icon:hover , .carousel-control-next-icon:hover{
+  transform: scale(1.2);
+}
+
+@keyframes animate{
+  0%
+  {
+    margin-top: 0vh;
+  }
+  100%
+  {
+    margin-left: -98vh;
+  }
+}
+
+
+@keyframes animate1{
+  0%
+  {
+    margin-left: 0vh;
+  }
+  100%
+  {
+    margin-left: -50vh;
+  }
+}
+
+@keyframes animate2{
+  0%
+  {
+    margin-top: 0vh;
+  }
+  100%
+  {
+    margin-left: -74vh;
+  }
+}
+
+@keyframes animate3{
+  0%
+  {
+    margin-top: 0vh;
+  }
+  100%
+  {
+    margin-left: -90vh;
+  }
+}
+
+@keyframes animate4{
+  0%
+  {
+    margin-top: 0vh;
+  }
+  100%
+  {
+    margin-left: -92vh;
+  }
+}
+
+@keyframes animate5{
+  0%
+  {
+    margin-top: 0vh;
+  }
+  100%
+  {
+    margin-left: -95vh;
+  }
+}
+
+.heading2{
+  font-weight: 500;
+  color: red;
+  margin-left: 38%;
+  font-size: 50px;
+  margin-top: -10vh;
+}
+
+.heading3{
+  font-weight: 500;
+  color: red;
+  margin-left: 38%;
+  font-size: 50px;
+  
+}
+
+.one
+{
+    height: 750px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) , url("thor.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.two
+{
+    height: 450px;
+    background-color: chartreuse;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 90px !important;
+    background-image: url("thor3.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+.three
+{
+    margin-top: 92px !important;
+    font-weight: 300;
+    color: ivory;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.four
+{
+    height: 30px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px;
+    margin-top: 30px;
+}
+
+.four i{
+   font-size: 1.8em;
+    color: red;
+}
+.four h4
+{
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.four p
+{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.five
+{
+    height: 30px;
+    width: 40px;
+    background-color: ivory;
+    margin-top: 50px !important;
+    margin-left: 8px;
+}
+
+.five p{
+    color: black;
+    margin-left: 10px;
+    margin-top: 4px;
+    font-weight: 700 !important;
+}
+
+.six
+{
+    height: 30px;
+    width: 235px;
+    background-color: ivory;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+.six p{
+    color: black;
+    margin-left: 20px !important;
+    margin-top: 3px;
+    font-weight: 700 !important;
+}
+
+.seven p{
+    color: ivory;
+    margin-left: 6px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 16.5px;
+}
+
+.eight button
+{
+    background-color: black;
+    margin-top: 30px !important;
+    margin-left: 8px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    color: red;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid red;
+    border-radius: 2px;
+}
+
+.eight button:hover
+{
+    background-color: red;
+    color: ivory;
+}
+.eight button:hover .far{
+    color: ivory !important;
+} 
+
+.nine button
+{
+    background-color: black;
+    margin-top: 30px !important;
+    margin-left: 8px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    color: red;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid red;
+    border-radius: 2px;
+}
+
+.nine button:hover
+{
+    background-color: red;
+    color: ivory;
+}
+.nine button:hover .far{
+    color: ivory !important;
+} 
